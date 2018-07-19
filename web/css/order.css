@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #26a69a;
+    letter-spacing: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+.ico{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+form p{
+    margin-top: 2rem;
+}
+form p input[type=text]{
+    width: 80%;
+    height: 2.1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #9e9e9e;
+    background-color: #ffffff;
+}
+#sub{
+    display: inline-block;
+    width: 6rem;
+    height: 2rem;
+   margin-left: 9rem;
+    margin-top: 3rem;
+    background-color: #26a69a;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}

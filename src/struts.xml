@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+        "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+
+	<!--<package name="bbs2009_default" extends="struts-default">-->
+		 <!--<global-exception-mappings>-->
+    		<!--<exception-mapping result="exception_handle" exception="Exception"></exception-mapping>-->
+    	<!--</global-exception-mappings>-->
+	<!--</package>-->
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <package name="admin" extends="json-default" >
+       <action name="*-*" class="cn.lgh.action.{1}Action" method="{2}">
+            <result name="success">/admin/OK.html</result>
+            <result name="excel">/admin/welcome.html</result>
+            <result name="loginOk">/admin/index.jsp</result>
+            <result name="login">/admin/login.html</result>
+            <result name="loginFail">/admin/Fail.html</result>
+            <result name="olderSave">/shenHe.html</result>
+            <result name="accountQuery">/admin/admin-list.jsp</result>
+            <result name="newsQuery">/admin/article-list.jsp</result>
+            <result name="queryBy">/second.jsp?type=${type}</result>
+            <result name="shangByName">/second2.jsp?type=${type}</result>
+            <result name="shangBy">/shangjia.jsp</result>
+            <result name="olderQuery">/admin/member-list.jsp</result>
+            <result name="businessQuery">/admin/shangjia-list.jsp</result>
+            <result name="adviceQuery">/admin/feedback-list.jsp</result>
+            <result name="oformQuery">/admin/oform-list.jsp</result>
+            <result name="show1">/admin/member-show.jsp</result>
+            <result name="zhang">/admin/article-zhang.jsp</result>
+            <result name="three">/three.jsp</result>
+            <result name="businessShow">/admin/shangjia-show.jsp</result>
+            <result name="json" type="json">
+                <param name="root">jsonMap</param>
+            </result>
+            <result name="accountUpdate">/admin/admin-update.jsp</result>
+            <result name="newsUpdate">/admin/article-update.jsp</result>
+            <result name="olderUpdate">/admin/member-update.jsp</result>
+            <result name="businessUpdate">/admin/shangjia-update.jsp</result>
+            <result name="bQ">/second3.jsp</result>
+
+            <!--<result name="dataquery">/dataQuery.jsp</result>-->
+            <!--<result name="update">/userUpdate.jsp</result>-->
+            <!--<result name="dataupdate">/dataUpdate.jsp</result>-->
+            <!--<result name="payQuery">/payQuery.jsp</result>-->
+            <!--<result name="excel">/main.jsp</result>-->
+       </action>
+    </package>
+
+
+</struts>

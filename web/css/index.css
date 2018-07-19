@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 75px;
+    width: 91%;
+    margin: 0 auto;
+    /*border: 1px solid royalblue;*/
+}
+.logo img{
+    display: inline-block;
+    width: 60px;
+}
+.logo h3{
+    display: inline-block;
+    font-size: 26px;
+    letter-spacing: 9px;
+    color: #4c4c4c;
+}
+.nav{
+    width: 91%;
+    margin: 0 auto;
+}
+.nav ul{
+    width: 100%;
+    height: 40px;
+    background-color: #016fb8;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.nav ul li{
+    height: 40px;
+    float: left;
+    list-style-type: none;
+    padding: 0 25px;
+
+}
+.nav ul li a{
+    display: inline-block;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+
+    text-decoration: none;
+}
+.nav ul li:hover{
+    background-color: #0a63ab;
+}
+.cont{
+    width: 91%;
+    height: 921px;
+    margin: 0 auto;
+}
+.wzgg{
+    width: 38%;
+    height: 278px;
+    border: 1px solid #E7E1F1;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+}
+.title{
+    margin-left: 8px;
+    margin-top: 12px;
+    margin-right: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #2a333c;
+}
+.title span{
+    font-weight: bolder;
+    font-size: 22px;
+    color: #016fb8;
+}
+.title h3{
+    display: inline-block;
+    color: #333333;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 21px;
+}
+.news{
+    height: 168.67px
+}
+.news li{
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+.news li a{
+    display: inline-block;
+    width: 77%;
+    color: #333333;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: left;
+}
+.news li a:hover{
+    color: #016fb8;
+    text-decoration: underline;
+}
+.news li span{
+    display: inline-block;
+    width: 23%;
+    text-align: right;
+    font-size: 13px;
+}
+.more{
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    border: 1px solid #016fb8;
+    color: #016fb8;
+    border-radius: 5px;
+    position: absolute;
+    right:4%;
+    bottom: 4%;
+}
+.more:hover{
+    background-color: #016fb8;
+    color: #fff;
+    transition: 0.5s;
+}
+.xwzx{
+    width: 56%;
+    margin-left: 5%;
+}
+.sjzs{
+    width: 61%;
+    height: 300px;
+}
+.we{
+    bottom: 3%;
+}
+.shop{
+    width: 43%;
+    float: left;
+}
+.shop li{
+    width: 100%;
+    margin-left:29px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 0;
+    border-bottom: 1px dotted #e7e1f1;
+}
+.photo{
+    width: 32%;
+    height: 300px;
+    margin-left: 5%;
+}
+.ph{
+    display: inline-block;
+    width: 93%;
+    height: 188px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.ph img{
+    width: 100%;
+    height: 188px;
+}
+.zcfg{
+    width: 47%;
+}
+.fwzd{
+    width: 46%;
+    margin-left: 5%;
+}
+.foot{
+    width: 100%;
+    height: 95px;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 25px;
+}
+.foot ul{
+    width: 60%;
+    height: 18px;
+    margin:0 auto;
+    padding-top: 42px;
+}
+.foot a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #999999;
+    margin-left: 20px;
+}
+.foot ul li{
+    list-style-type: none;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.view{
+    position: absolute;
+    top:85%;
+    left: 41%;
+    color: #fff;
+    font-size: 14px;
+}
+.ban{
+    position: absolute;
+    top:46%;
+    left: 39%;
+    color: #fff;
+    font-size: 14px;
+}
+.bei{
+    position: absolute;
+    top:68%;
+    left: 39%;
+    color: #fff;
+    font-size: 14px;
+}
+.ji{
+    position: absolute;
+    top:57%;
+    left: 40%;
+    color: #fff;
+    font-size: 14px;
+}
+.zhuce{
+    width: 91%;
+    height: 100px;
+    margin: 0 auto;
+    /*border: 1px solid #63a35c;*/
+    margin-top: 8px;
+}
+.older{
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color:tomato;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    color: #fff;
+    position: relative;
+}
+.shang{
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color:cadetblue;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    color: #fff;
+    position: relative;
+}
+.zhuce span{
+    position: absolute;
+    top:1%;
+    left: 2%;
+    font-size: 42px;
+}

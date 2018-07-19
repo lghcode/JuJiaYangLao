@@ -1,0 +1,84 @@
+.biao{
+    width: 100%;
+    height: 445px;
+}
+.biao li{
+    width: 90%;
+    line-height: 28px;
+    list-style-type: disc;
+    border-bottom: 1px dashed #c9c9c9;
+    margin-left: 3%;
+}
+.biao li a{
+    display: inline-block;
+    width: 90%;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+.biao li span{
+    font-size: 13px;
+}
+.biao li a:hover{
+    color: #016fb8;
+}
+.fenYe{
+    width: 60%;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+.fenYe a{
+    display: inline-block;
+    width: 45px;
+    height: 23px;
+    border: 1px solid #016fb8;
+    color: #016fb8;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 15px;
+}
+.fenYe form{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+}
+.fenYe form .zd{
+    width: 45px;
+    height: 23px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #016fb8;
+    color: #016fb8;
+    font-size: 13px;
+    text-align: center;
+    line-height: 23px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.fenYe form .num{
+    width: 45px;
+    height: 23px;
+    outline: none;
+    border: 1px solid #016fb8;
+    color: #016fb8;
+}
+.fenYe .ji{
+    position: absolute;
+    top:5px;
+    left: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+}
+.fenYe .total{
+    position: absolute;
+    top:5px;
+    width: 65px;
+    left: 111%;
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+}

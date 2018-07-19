@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont/iconfont.css"/>
+    <title></title>
+    <style>
+        .fu{
+            width: 88%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .fu tr td span{
+            font-size: 45px;
+            color: #016fb8;
+            display: inline-block;
+            margin-right: 19px;
+        }
+        .fu tr td{
+            padding-bottom: 20px;
+        }
+        .fu tr td a{
+            font-size: 20px;
+            color: #666666;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="logo">
+    <img src="image/logo.png" alt="">
+    <h3>福康安居家养老服务平台</h3>
+</div>
+<div class="nav">
+    <ul>
+        <li><a href="index.jsp">网站首页</a></li>
+        <li><a href="fuWu.html" id="fw">服务项目</a></li>
+        <li><a href="News-queryByType.action?news.ntype=1&pageNum=1">新闻资讯</a></li>
+        <li><a href="liaoJie.jsp">了解我们</a></li>
+        <li><a href="jianYan.jsp">建言献策</a></li>
+        <li><a href="News-queryByType.action?news.ntype=3&pageNum=1">政策法规</a></li>
+        <li><a href="older.jsp">老人登记</a></li>
+        <li><a href="News-queryByType.action?news.ntype=4&pageNum=1">服务制度</a></li>
+    </ul>
+</div>
+<table class="fu">
+    <tr>
+        <td>
+            <span class="iconfont">&#xe61c;</span>
+            <a href="Business-queryByName.action?business.btype=1&pageNum=1">养老家政</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe62c;</span>
+            <a href="Business-queryByName.action?business.btype=2&pageNum=1">房屋维修</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe684;</span>
+            <a href="Business-queryByName.action?business.btype=3&pageNum=1">家电维修</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span class="iconfont">&#xe871;</span>
+            <a href="Business-queryByName.action?business.btype=4&pageNum=1">家庭用餐</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe62b;</span>
+            <a href="Business-queryByName.action?business.btype=5&pageNum=1">家庭购物</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe75a;</span>
+            <a href="Business-queryByName.action?business.btype=6&pageNum=1">法律资讯</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span class="iconfont">&#xe6c6;</span>
+            <a href="Business-queryByName.action?business.btype=7&pageNum=1">开锁服务</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe603;</span>
+            <a href="Business-queryByName.action?business.btype=8&pageNum=1">家庭旅游</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe6d8;</span>
+            <a href="Business-queryByName.action?business.btype=9&pageNum=1">医疗服务</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span class="iconfont">&#xe600;</span>
+            <a href="Business-queryByName.action?business.btype=10&pageNum=1">休闲健身</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe6cb;</span>
+            <a href="Business-queryByName.action?business.btype=11&pageNum=1">保险金融</a>
+        </td>
+        <td>
+            <span class="iconfont">&#xe74c;</span>
+            <a href="Business-queryByName.action?business.btype=12&pageNum=1">丧葬服务</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <span class="iconfont">&#xe72e;</span>
+            <a href="Business-queryByName.action?business.btype=13&pageNum=1">婚姻介绍</a>
+        </td>
+    </tr>
+</table>
+<div class="foot">
+    <ul>
+        <li>版权所有&copy;抚州福康安居家养老有限公司</li>
+        <li>备案号：赣ICP备18009244号</li>
+        <li>技术支持：lgh&gsj</li>
+        <li>当前访问量:120次</li>
+    </ul>
+    <a href="${pageContext.request.contextPath}/admin/login.html">后台管理</a>
+</div>
+</body>
+</html>
